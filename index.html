@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tagesschrift&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="left-section">
+        <div class="logo">
+            <img src="Triaros.jpg">
+            <p>Triaros</p>
+        </div>
+    </div>
+
+    <div class="right-section">
+        <p>This is not real life, this is a fantasy that you can be a part of. If you sign up now you can 
+            stay up to date on all the adventures going on, you know you want to.
+        </p>
+        <fieldset>
+            <legend>Join the adventure today!</legend>
+            
+            <div class="name">
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName">
+            
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName">
+            </div>
+
+            <div class="contact">        
+                <label for="email">Email</label>
+                <input type="email" name="email">
+
+                <label for="phone">Phone Number</label>
+                <input type="number" name="number">
+            </div>
+
+            <div class="password">
+                <label for="password">Password</label>
+                <input type="password" name="password">
+            
+                <label for="confirmPassword">Confirm password</label>
+                <input type="password" name="confirmPassword">
+            </div>
+        </fieldset>
+        <button class="btn" type="submit">Create account</button>
+        <p>Already have an account? <a href="login">Log in</a></p>
+        
+    </div>
+</body>
+</html>

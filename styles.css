@@ -1,0 +1,52 @@
+.tagesschrift-regular {
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+body {
+    background-color: #ffebcd;
+    display: flex;
+}
+
+.left-section {
+    background-image: linear-gradient(black, white);
+    background-image: url("Fantasy_Map.jpg");
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    margin: 8px;
+    font-size: medium;
+    height: 144px;
+    width: 600px;
+    box-shadow: 10px black;
+}
+
+img {
+    height: auto;
+    width: 5%;
+    font-family: "Tagesschrift", sans-serif;
+}
+
+:invalid {
+    border-color: red;
+}
+
+:focus {
+    border-color: blue;
+    box-shadow: inset;
+}
