@@ -4,44 +4,6 @@
     font-style: normal;
   }  
 
-body {
-    background-color: #ffebcd;
-    display: flex;
-}
-
-.left-section {
-    background-image: linear-gradient(black, white);
-    background-image: url("Fantasy_Map.jpg");
-    display: flex;
-    flex-direction: column;
-    width: 720px;
-}
-
-.right-section {
-    display: flex;
-    flex-direction: column;
-    padding-left: 50%;
-    justify-content: center;
-    align-items: center;
-}
-
-fieldset{
-    display: flex;
-    justify-content: center;
-    padding: 12px;
-    margin: 8px;
-    font-size: medium;
-    height: 144px;
-    width: 600px;
-    box-shadow: 10px black;
-}
-
-img {
-    height: auto;
-    width: 5%;
-    font-family: "Tagesschrift", sans-serif;
-}
-
 :invalid {
     border-color: red;
 }
@@ -50,3 +12,97 @@ img {
     border-color: blue;
     box-shadow: inset;
 }
+
+body {
+    background-color: #ffebcd;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.logo{
+    display: flex;
+    height: max-content;
+    width: 360px;
+    height: 720px;
+    flex-direction: column;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.logoimg{
+    height: 180px;
+    width: 25%;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    background-image: url("lexi-laginess-6poDd1l6UlM-unsplash.jpg");
+    margin-left: 72px;
+    margin-top: 72px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50%;
+    justify-content: space-around;
+    align-items: start;
+    padding-top: 144px;
+    flex-wrap: wrap;
+    font-family: "Tagesschrift" 'Courier New', Courier, monospace;
+}
+
+.right-section p{
+    font-size: x-large;
+}
+
+legend, label{
+    font-size: large;
+}
+
+fieldset{
+    display: flex;
+    justify-content: flex-start;
+    padding: 12px;
+    margin: 8px;
+    font-size: medium;
+    height: 144px;
+    width: 600px;
+    box-shadow: 10px black;
+}
+
+button{
+    background-color: #596D48;
+    border-radius: 12px;
+    width: 144px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+
+.submitbtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+}
+
+/* .submitbtn p{
+    padding-left: 25px;
+} */
+
+input :focus{
+    border-color: #E5E7EB;
+    border-color: blue;
+}
+
